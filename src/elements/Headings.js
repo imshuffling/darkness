@@ -8,6 +8,7 @@ export const Heading = styled.h1`
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: normal;
+    margin-bottom: 1rem;
 `;
 
 export const SubHeading = styled.h3`
