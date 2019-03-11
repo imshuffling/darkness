@@ -108,6 +108,15 @@ const GlobalStyle = createGlobalStyle`
             transform: translateY(0);
         }
     }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
 `;
 
 export default GlobalStyle;
