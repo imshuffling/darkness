@@ -3,6 +3,10 @@
   "description": "Darkness microsite",
   "version": "1.0.0",
   "author": "David Riches <hi@davidrich.es",
+  "repository" : {
+   "type" : "git",
+   "url" : "https://github.com/imshuffling/Darkness"
+  },
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.1.18",

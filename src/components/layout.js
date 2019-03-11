@@ -7,7 +7,6 @@ import GlobalStyle from '../Global'
 import Div100vh from 'react-div-100vh';
 
 const Wrapper = styled.div`
-  min-height: 100vh;
   display: grid;
   grid-template-areas: "header" "main" "footer";
   max-width: 1220px;
