@@ -6,8 +6,8 @@ const GlobalStyle = createGlobalStyle`
         --base-font:   'Open Sans', sans-serif;
         --black:       rgb(0, 0, 0);
         --white:       #fff;
-        --orange:      #ee5f2875;
-        --grey:        rgb(122, 128, 133);
+        --orange:      #FFC0FF;
+        --grey:        #C0FFC0;
         font-size:     calc(1rem + ((1vw - 0.3rem) * 0.2222));
         font-weight:   normal;
     }
@@ -69,7 +69,7 @@ const GlobalStyle = createGlobalStyle`
             left: 0px;
             right: 0px;
             bottom: 0px;
-            height: 1px;
+            height: 2px;
             background-color: var(--orange);
             border-radius: 2px;
             transition: transform 250ms ease 200ms, opacity 450ms ease 200ms;

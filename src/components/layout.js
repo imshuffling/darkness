@@ -4,6 +4,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import styled from 'styled-components'
 import GlobalStyle from '../Global'
+import Div100vh from 'react-div-100vh';
 
 const Wrapper = styled.div`
   min-height: 100vh;
@@ -19,6 +20,7 @@ class Layout extends Component {
   render() {
     const { children } = this.props
     return (
+      <Div100vh>
         <Wrapper>
           <GlobalStyle />
           <Helmet
@@ -32,6 +34,7 @@ class Layout extends Component {
             {children}
           <Footer />
         </Wrapper>
+      </Div100vh>
     )
   }
 }
