@@ -15,4 +15,5 @@ export const SubHeading = styled.h3`
     font-size: 1.3rem;
     color: var(--white);
     font-weight: normal;
+    margin-bottom: 2rem;
 `;
