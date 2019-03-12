@@ -14,6 +14,11 @@ const Wrapper = styled.div`
   padding: 0 2rem;
   margin: 0px auto;
   overflow: hidden;
+
+  @media (max-width: 700px) {
+    padding: 0 1.5rem;
+  }
+
 `
 
 class Layout extends Component {

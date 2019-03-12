@@ -17,16 +17,28 @@ const Nav = styled.nav`
   margin-left: auto;
   display: flex;
   align-items: center;
+  padding-left: 20px;
   > ul {
     animation: introRight 350ms cubic-bezier(0.694, 0, 0.335, 1) 0s backwards;
     list-style: none;
     display: flex;
+    flex-direction: row;
     margin: 0;
     padding: 0;
+
+    @media (max-width: 700px) {
+      flex-direction: column;
+    }
+
     li {
       padding: 0;
       margin-right: 30px;
       font-size: 16px;
+
+      @media (max-width: 700px) {
+        margin-right: 10px;
+      }
+
       a {
         font-weight: normal;
         color: var(--green);
@@ -124,7 +136,7 @@ class Header extends Component {
 
   render() {
     return (
-    <HeaderWrapper>
+    <HeaderWrapper className={this.state.toggle ? 'open' : '' }>
       <HeaderInner>
         <Logo><Link to="/">Darkness.</Link></Logo>
         <Nav>
