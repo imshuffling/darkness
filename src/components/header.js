@@ -56,7 +56,7 @@ const Nav = styled.nav`
 const Logo = styled.div`
   font-family: var(--logo);
   font-weight: bold;
-  padding: 30px 0;
+  padding: 50px 0;
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: -.5px;
@@ -135,6 +135,9 @@ class Header extends Component {
   }
 
   render() {
+
+    const props = this.props
+
     return (
     <HeaderWrapper className={this.state.toggle ? 'open' : '' }>
       <HeaderInner>
@@ -143,7 +146,11 @@ class Header extends Component {
         {this.state.toggle &&
           <ul>
             <li><Link activeClassName="active" to="/">Styled Components</Link></li>
-            <li><Link activeClassName="active" to="/random-facts">Random Facts</Link></li>
+            <li>
+              <Link activeClassName="active"
+                to="/random-facts">Random Facts
+              </Link>
+            </li>
           </ul>
         }
         <Button className={this.state.toggle ? 'navbutton active' : 'navbutton' } onClick={this.toggle}>
