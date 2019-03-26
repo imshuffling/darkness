@@ -11,6 +11,9 @@ const FooterInner = styled.div`
   animation: intro 800ms cubic-bezier(0.694, 0, 0.335, 1) 0s backwards;
   display: flex;
   align-items: center;
+  > p {
+    margin-bottom: 0;
+  }
 `
 
 const Footer = () => (
