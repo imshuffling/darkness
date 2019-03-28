@@ -3,23 +3,25 @@
   "description": "Darkness microsite",
   "version": "1.0.0",
   "author": "David Riches <hi@davidrich.es",
-  "repository" : {
-   "type" : "git",
-   "url" : "https://github.com/imshuffling/Darkness"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imshuffling/Darkness"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
-    "gatsby": "^2.1.18",
-    "gatsby-image": "^2.0.31",
-    "gatsby-plugin-manifest": "^2.0.19",
-    "gatsby-plugin-offline": "^2.0.24",
-    "gatsby-plugin-react-helmet": "^3.0.7",
-    "gatsby-plugin-styled-components": "^3.0.6",
-    "react": "^16.8.3",
+    "gatsby": "^2.3.3",
+    "gatsby-image": "^2.0.35",
+    "gatsby-plugin-manifest": "^2.0.25",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-react-helmet": "^3.0.11",
+    "gatsby-plugin-styled-components": "^3.0.7",
+    "gatsby-plugin-transition-link": "^1.12.1",
+    "gsap": "^2.1.2",
+    "react": "^16.8.6",
     "react-div-100vh": "^0.3.2",
-    "react-dom": "^16.8.3",
+    "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
-    "styled-components": "^4.1.3",
+    "styled-components": "^4.2.0",
     "typeface-open-sans": "0.0.54",
     "typeface-pt-sans": "0.0.72"
   },

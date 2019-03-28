@@ -8,7 +8,7 @@ const FooterWrapper = styled.footer`
 
 const FooterInner = styled.div`
   padding: 10px 0;
-  animation: intro 800ms cubic-bezier(0.694, 0, 0.335, 1) 0s backwards;
+  //animation: intro 800ms cubic-bezier(0.694, 0, 0.335, 1) 0s backwards;
   display: flex;
   align-items: center;
   > p {

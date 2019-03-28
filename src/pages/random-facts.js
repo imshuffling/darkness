@@ -5,7 +5,7 @@ import { SubHeading } from '../elements'
 
 const Section = styled.section`
   max-width: 600px;
-  animation: intro 800ms cubic-bezier(0.694, 0, 0.335, 1) 0s backwards;
+  //animation: intro 800ms cubic-bezier(0.694, 0, 0.335, 1) 0s backwards;
 `
 
 const randomFacts = (props) => (

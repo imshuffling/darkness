@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import { Link } from "gatsby"
+//import TransitionLink from 'gatsby-plugin-transition-link'
+//import { Link } from "gatsby"
+import Link from 'gatsby-plugin-transition-link'
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 const HeaderWrapper = styled.header`
   grid-area: header;
@@ -136,7 +139,7 @@ class Header extends Component {
 
   render() {
 
-    const props = this.props
+    //const props = this.props
 
     return (
     <HeaderWrapper className={this.state.toggle ? 'open' : '' }>
@@ -146,11 +149,7 @@ class Header extends Component {
         {this.state.toggle &&
           <ul>
             <li><Link activeClassName="active" to="/">Styled Components</Link></li>
-            <li>
-              <Link activeClassName="active"
-                to="/random-facts">Random Facts
-              </Link>
-            </li>
+            <li><AniLink activeClassName="active" paintDrip hex="#C0FFC0" to="/random-facts">Random Facts</AniLink></li>
           </ul>
         }
         <Button className={this.state.toggle ? 'navbutton active' : 'navbutton' } onClick={this.toggle}>
