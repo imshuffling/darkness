@@ -25,7 +25,8 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background: linear-gradient(240.5deg, rgb(17, 18, 22) 0%, var(--black) 82.84%);
+        // background: linear-gradient(240.5deg, rgb(17, 18, 22) 0%, var(--black) 82.84%);
+        background: #181818;
         color: var(--white);
         box-sizing: border-box;
         -webkit-font-smoothing: antialiased;
