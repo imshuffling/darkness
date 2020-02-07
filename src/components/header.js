@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-//import TransitionLink from 'gatsby-plugin-transition-link'
-//import { Link } from "gatsby"
 import Link from 'gatsby-plugin-transition-link'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
